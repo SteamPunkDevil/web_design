@@ -220,31 +220,31 @@ button:active, #search input[type='submit']:active, .wiki-page .wiki-page-conten
 	display: block;
 	height: 2.5em;
 	width: 7em;
-	transition: all 0.15s ease;
+	transition: all .5s ease;
 }
 
 .redditname {
 	overflow: hidden;
 	border: 2px solid #fff;
 	border-radius: 4px;
-	font-size: 2.2em;
-	margin:0 auto;
+	font-size: 1.8em;
+	margin: 2.5em auto 0 auto;
 }
 
 .redditname a {
+	-webkit-font-smoothing: antialiased;
 	position: relative;
 	color: #fff;
 	font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
 	font-weight: 300;
-	font-variant:normal;
 	letter-spacing: 0.02em;
 	line-height: 2.4em;
 	text-align: center;
+	text-decoration: none;
 }
 
 .redditname a:hover {
 	color: #369;
-	text-decoration: none;
 }
 
 .redditname a:before {
@@ -259,7 +259,6 @@ button:active, #search input[type='submit']:active, .wiki-page .wiki-page-conten
 .redditname a:hover:before {
 	top: 0;
 }
-
 /* End Logo */
 
 
